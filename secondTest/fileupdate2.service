@@ -1,0 +1,10 @@
+
+
+[Service]
+WorkingDirectory=/home/test/Documents/timertest/
+Type=oneshot
+ExecStart=/bin/bash /home/test/Documents/timertest/timer1.sh
+ExecStart=/bin/bash /home/test/Documents/timertest/timer2.sh
+
+[Install]
+WantedBy=multi-user.target

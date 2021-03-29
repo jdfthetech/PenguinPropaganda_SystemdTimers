@@ -1,0 +1,11 @@
+[Unit]
+Description="timer for the script"
+
+[Timer]
+OnCalendar=*-*-* *:*:00
+OnCalendar=*-*-* *:*:30
+AccuracySec=1s
+Unit=fileupdate.service
+
+[Install]
+WantedBy=timers.target
