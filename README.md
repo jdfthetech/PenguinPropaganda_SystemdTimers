@@ -15,7 +15,7 @@ The secondTest folder contains the files for the second example.
 - systemctl start <service or timer file> 
     - will turn on the service.
 - systemctl stop <service or timer file> 
-    - will turn on the service.
+    - will turn off the service.
 - systemctl enable <service or timer file> 
     - will set a symlink to run the service permanently.
 - systemctl disable <service or timer file> 
